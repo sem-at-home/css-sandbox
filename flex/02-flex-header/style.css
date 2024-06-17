@@ -1,6 +1,10 @@
 .header  {
+  align-items: center;
+  display: flex;
   font-family: monospace;
   background: papayawhip;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 .logo {
@@ -12,8 +16,12 @@
 }
 
 ul {
+  display: flex;
+  gap: 12px;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
